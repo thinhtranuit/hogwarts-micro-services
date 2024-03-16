@@ -1,0 +1,35 @@
+openapi: "3.0.2"
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+  - url: http://localhost:8080
+    description: Generated server url
+paths:
+  /v1.0/subjects:
+    get:
+      tags:
+        - Subject-controller
+      operationId: getAllSubjects
+      responses:
+        "200":
+          description: Successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Subject"
+components:
+  schemas:
+    Subject:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
+        teacherId:
+          type: integer
