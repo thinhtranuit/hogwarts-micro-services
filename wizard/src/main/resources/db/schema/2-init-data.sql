@@ -1,111 +1,111 @@
 -- Gryffindor House
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Harry Potter', 'M', 'Student');
+VALUES ('Harry Potter', 'MALE', 'STUDENT');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Hermione Granger', 'F', 'Student');
+VALUES ('Hermione Granger', 'FEMALE', 'STUDENT');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Ron Weasley', 'M', 'Student');
+VALUES ('Ron Weasley', 'MALE', 'STUDENT');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Neville Longbottom', 'M', 'Student');
+VALUES ('Neville Longbottom', 'MALE', 'STUDENT');
 
 -- Slytherin House
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Draco Malfoy', 'M', 'Student');
+VALUES ('Draco Malfoy', 'MALE', 'STUDENT');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Lucius Malfoy', 'M', '');  -- Role might be Death Eater (leave blank)
+VALUES ('Lucius Malfoy', 'MALE', '');  -- Role might be Death Eater (leave blank)
 
 -- Other Important Characters
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Lord Voldemort', 'M', '');  -- Role is the Dark Lord (leave blank)
+VALUES ('Lord Voldemort', 'MALE', '');  -- Role is the Dark Lord (leave blank)
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Sirius Black', 'M', '');  -- Role might be fugitive/Order of the Phoenix member (leave blank)
+VALUES ('Sirius Black', 'MALE', '');  -- Role might be fugitive/Order of the Phoenix member (leave blank)
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Fred Weasley', 'M', 'Student');
+VALUES ('Fred Weasley', 'MALE', 'STUDENT');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('George Weasley', 'M', 'Student');
+VALUES ('George Weasley', 'MALE', 'STUDENT');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Ginny Weasley', 'F', 'Student');
+VALUES ('Ginny Weasley', 'FEMALE', 'STUDENT');
 
 -- Add more characters as needed...
 -- Gryffindor House Founders
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Godric Gryffindor', 'M', '');  -- Role: House Founder (leave blank)
+VALUES ('Godric Gryffindor', 'MALE', '');  -- Role: House Founder (leave blank)
 
 -- Ravenclaw House Founders
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Rowena Ravenclaw', 'F', '');  -- Role: House Founder (leave blank)
+VALUES ('Rowena Ravenclaw', 'FEMALE', '');  -- Role: House Founder (leave blank)
 
 -- Hufflepuff House Founders
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Helga Hufflepuff', 'F', '');  -- Role: House Founder (leave blank)
+VALUES ('Helga Hufflepuff', 'FEMALE', '');  -- Role: House Founder (leave blank)
 
 -- Slytherin House Founders
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Salazar Slytherin', 'M', '');  -- Role: House Founder (leave blank)
+VALUES ('Salazar Slytherin', 'MALE', '');  -- Role: House Founder (leave blank)
 
 -- Known Hogwarts Teachers
 INSERT INTO wizard (name, gender, role)
-VALUES ('Minerva McGonagall', 'F', 'Teacher');
+VALUES ('Minerva McGonagall', 'FEMALE', 'TEACHER');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Rubeus Hagrid', 'M', 'Teacher');
+VALUES ('Rubeus Hagrid', 'MALE', 'TEACHER');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Albus Dumbledore', 'M', 'Teacher');
+VALUES ('Albus Dumbledore', 'MALE', 'TEACHER');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Severus Snape', 'M', 'Teacher');
+VALUES ('Severus Snape', 'MALE', 'TEACHER');
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Quirinus Quirrell', 'M', 'Teacher');  -- Defense Against the Dark Arts (briefly)
+VALUES ('Quirinus Quirrell', 'MALE', 'TEACHER');  -- Defense Against the Dark Arts (briefly)
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Gilderoy Lockhart', 'M', 'Teacher');  -- Defense Against the Dark Arts (briefly)
+VALUES ('Gilderoy Lockhart', 'MALE', 'TEACHER');  -- Defense Against the Dark Arts (briefly)
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Barty Crouch Jr.', 'M', 'Teacher');  -- Disguised as Alastor Moody (Defense Against the Dark Arts)
+VALUES ('Barty Crouch Jr.', 'MALE', 'TEACHER');  -- Disguised as Alastor Moody (Defense Against the Dark Arts)
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Dolores Umbridge', 'F', 'Teacher');  -- Defense Against the Dark Arts (Ministry-appointed)
+VALUES ('Dolores Umbridge', 'FEMALE', 'TEACHER');  -- Defense Against the Dark Arts (Ministry-appointed)
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Remus Lupin', 'M', 'Teacher');  -- Defense Against the Dark Arts
+VALUES ('Remus Lupin', 'MALE', 'TEACHER');  -- Defense Against the Dark Arts
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Alastor Moody', 'M', 'Teacher');  -- Defense Against the Dark Arts (retired Auror)
+VALUES ('Alastor Moody', 'MALE', 'TEACHER');  -- Defense Against the Dark Arts (retired Auror)
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Horace Slughorn', 'M', 'Teacher');  -- Potions
+VALUES ('Horace Slughorn', 'MALE', 'TEACHER');  -- Potions
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Filius Flitwick', 'M', 'Teacher');  -- Charms
+VALUES ('Filius Flitwick', 'MALE', 'TEACHER');  -- Charms
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Sybil Trelawney', 'F', 'Teacher');  -- Divination
+VALUES ('Sybil Trelawney', 'FEMALE', 'TEACHER');  -- Divination
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Pomona Sprout', 'F', 'Teacher');  -- Herbology
+VALUES ('Pomona Sprout', 'FEMALE', 'TEACHER');  -- Herbology
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Severus Snape (as Half-Blood Prince)', 'M', 'Teacher');  -- Potions (after Dumbledore's death)
+VALUES ('Severus Snape (as Half-Blood Prince)', 'MALE', 'TEACHER');  -- Potions (after Dumbledore's death)
 
 INSERT INTO wizard (name, gender, role)
-VALUES ('Horace Slughorn (restored)', 'M', 'Teacher');  -- Potions (after Snape's defection)
+VALUES ('Horace Slughorn (restored)', 'MALE', 'TEACHER');  -- Potions (after Snape's defection)
 
 -- Add more teachers as you discover them throughout the series
 

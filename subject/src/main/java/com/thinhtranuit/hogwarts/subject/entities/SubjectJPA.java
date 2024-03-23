@@ -16,7 +16,7 @@ import lombok.*;
 public class SubjectJPA {
 
     @Id
-    private Long id;
+    private Integer id;
 
     @Column(name = "subject_name", nullable = false)
     private String name;
@@ -24,5 +24,5 @@ public class SubjectJPA {
     @Column(name = "description", nullable = false)
     private String description;
 
-    private Long teacherId;
+    private Integer teacherId;
 }

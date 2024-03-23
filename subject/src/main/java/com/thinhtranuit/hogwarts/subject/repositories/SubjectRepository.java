@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 public interface SubjectRepository
-        extends JpaRepository<SubjectJPA, Long>, JpaSpecificationExecutor<SubjectJPA> {
+        extends JpaRepository<SubjectJPA, Integer>, JpaSpecificationExecutor<SubjectJPA> {
 }

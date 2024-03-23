@@ -1,6 +1,7 @@
 package com.thinhtranuit.hogwarts.subject.controllers;
 
 import com.thinhtranuit.hogwarts.subject.controllers.dto.Subject;
+import com.thinhtranuit.hogwarts.subject.controllers.dto.Teacher;
 import com.thinhtranuit.hogwarts.subject.services.SubjectService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -17,5 +18,10 @@ public class SubjectController implements V10Api {
     @Override
     public ResponseEntity<List<Subject>> getAllSubjects() {
         return ResponseEntity.ok(subjectService.findAll());
+    }
+
+    @Override
+    public ResponseEntity<Teacher> getSubjectTeacher(Integer id) {
+        return ResponseEntity.ok(subjectService.getTeacher(id));
     }
 }
