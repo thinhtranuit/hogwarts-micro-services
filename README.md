@@ -17,3 +17,26 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 cd subject
 mvn spring-boot:run
 ```
+
+Create docker image by using these commands
+```shell
+cd subject 
+docker image build -t hogwarts-subject-service:0.0.1 .
+
+cd ../wizard
+docker image build -t hogwarts-wizard-service:0.0.1 .
+```
+
+Run the fullstack by using commands
+```shell
+cd docker
+docker-compose -f hogwarts-services.yml up
+```
+
+Testing APIs:
+
+curl http://localhost:8080/v1.0/subjects
+
+curl http://localhost:8081/v1.0/wizards?id=1&id=2
+
+curl http://localhost:8080/v1.0/subjects/1/teacher
