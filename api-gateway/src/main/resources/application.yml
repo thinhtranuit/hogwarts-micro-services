@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: wizard
+          uri: lb://wizard
+          predicates:
+            - Path=/v1.0/wizards/**
+        - id: subject
+          uri: lb://subject
+          predicates:
+            - Path=/v1.0/subjects/**
+server:
+  port: 8765
+
