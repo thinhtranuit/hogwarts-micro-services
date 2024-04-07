@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@FeignClient(name = "${feign.client.wizard.name}", url = "${feign.client.wizard.url}")
+@FeignClient(name = "wizard")
 public interface TeacherRepository {
 
     @GetMapping("/v1.0/wizards")
